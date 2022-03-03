@@ -1,6 +1,6 @@
-import Chrome.GoogleSearchPage;
-import Chrome.YoutubePage;
-import Ultilities.GoogleChromeDriver;
+import page.GoogleSearchPage;
+import page.YoutubePage;
+import ultilities.GoogleChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 

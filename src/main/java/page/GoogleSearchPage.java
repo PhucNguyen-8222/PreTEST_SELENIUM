@@ -1,6 +1,6 @@
-package Chrome;
+package page;
 
-import Ultilities.Constants;
+import ultilities.Constants;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -15,11 +15,11 @@ public class GoogleSearchPage {
      **/
     /* Google Page locate */
     private final By _searchInput = By.name("q");
-    private final By _mainResult = By.xpath("//div//h2[@data-attrid=\"title\"]/span");
-    private final By _videosSection = By.xpath("//div[@id=\"search\"]//h3[contains(text(),\"Video\")]/ancestor::div[@aria-level=\"2\"]/following-sibling::div[1]/div[2]");
-    private final By _peopleAlsoAskSection = By.xpath("//div[@id=\"_kBcgYrrbNeviz7sPrO6CiAE20\"]");
-    private final By _playButton = By.xpath("//button[@class=\"ytp-play-button ytp-button\"]");
-    private final By _videoTitle = By.xpath("//h1[@class=\"title style-scope ytd-video-primary-info-renderer\"]");
+    private final By _mainResult = By.xpath("//div//h2[@data-attrid='title']/span");
+    private final By _videosSection = By.xpath("//h3[contains(text(),'Video')]/ancestor::div[@aria-level='2']/following-sibling::div//a");
+    private final By _peopleAlsoAskSection = By.xpath("//h3/span[text()='People also ask']/../..");
+    private final By _playButton = By.xpath("//button[@class='ytp-play-button ytp-button']");
+    private final By _videoTitle = By.xpath("//h1[@class='title style-scope ytd-video-primary-info-renderer']");
 
 
     /**

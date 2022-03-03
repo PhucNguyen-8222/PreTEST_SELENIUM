@@ -1,4 +1,4 @@
-package Ultilities;
+package ultilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,6 +12,7 @@ public class GoogleChromeDriver {
         options.addArguments("--start-maximized");
         options.addArguments("--disable-features=EnableEphemeralFlashPermission");
         options.addArguments("--disable-infobars");
+        options.addArguments("--lang=en-GB");
         Constants.DRIVER = new ChromeDriver(options);
     }
 

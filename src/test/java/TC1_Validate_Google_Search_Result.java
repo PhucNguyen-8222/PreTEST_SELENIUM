@@ -1,6 +1,5 @@
-import Chrome.*;
-import Ultilities.GoogleChromeDriver;
-import org.testng.Assert;
+import page.*;
+import ultilities.GoogleChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 

@@ -1,10 +1,8 @@
-package Chrome;
+package page;
 
-import Ultilities.Constants;
+import ultilities.Constants;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class YoutubePage {
 
